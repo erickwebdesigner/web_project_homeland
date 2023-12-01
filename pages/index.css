@@ -1,6 +1,10 @@
 .page {
-    width: 100%;
+    max-width: 100%;
+    min-width: 1100px;
     height: 100vh;
-    background: #2A2C2F;
-    
-}
+    font-family: "Inter", "arial", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #2A2C2F;
+   
+  }
