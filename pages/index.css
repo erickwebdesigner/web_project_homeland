@@ -7,8 +7,8 @@ main footer {
 
 .page {
   width: 1280px;
-  color: ;
-  background: blue;
+  /*color: white;
+  background: #2A2C2F;*/
   grid-template-rows: 5;;
   display: grid;
   grid-template-rows: 5;
@@ -71,7 +71,123 @@ main footer {
   width: 828px;
   height: 516px;
   margin-top: 92px;
-  margin-left: 148px;
-  
+  margin-right: 304px;
+}
 
+.intro-title {
+width: 828px;
+height: 116px;
+margin-top: 92px;
+margin-left: 148px;
+font-family: 'Inter', sans-serif;
+font-size: 54px;
+font-weight: 900;
+line-height: 58px;
+text-align: left;
+}
+
+.intro__quote {
+width: 763px;
+height: 68px;
+margin-top: 75px;
+margin-left: 148px;
+font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+text-align: left;
+
+}
+
+.intro__quote-author {
+width: 720px;
+height: 34px;
+margin-top: 9px;
+margin-left: 148px;
+font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: right;
+}
+
+.intro__text {
+  width: 720px;
+  height: 182px;
+  margin-top: 32px;
+  margin-left: 148px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+.photo {
+  display: grid;
+  width: 1184px;
+  height: 442px;
+  margin-top: 92px;
+  margin-left: 48px;
+  margin-bottom: 0;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(2,1fr);
+  grid-area: 
+  'photo__grid-1 photo__grid-2 photo__grid-3 photo__grid-4'
+  'photo__grid-5 photo__grid-6 photo__grid-7 photo__grid-8';
+  align-items: center;
+}
+
+.photo__grid-1 {
+  width: 284px;
+  height: 213px;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+.photo__grid-2 {
+  width: 284px;
+  height: 213px;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+.photo__grid-3 {
+  width: 284px;
+  height: 213px;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+.photo__grid-4 {
+  width: 284px;
+  height: 213px;
+}
+
+.photo__grid-5 {
+  width: 284px;
+  height: 213px;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+.photo__grid-6 {
+  width: 284px;
+  height: 213px;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+.photo__grid-7 {
+  width: 284px;
+  height: 213px;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+.photo__grid-8 {
+  width: 284px;
+  height: 213px;
+  column-gap: 16px;
+  row-gap: 16px;
 }
