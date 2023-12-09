@@ -3,39 +3,47 @@
 *{
     font-family: "Inter", sans-serif;
     font-size: 16px;
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
 }
 
 body, html {
     width: 100vw;
     height: 100vh;
-    margin: auto;
-    
+    margin: 0px auto;
 }
 
 body{
     background-color: #2A2C2F;
     color: white;
     min-width: 320px;
+    max-width: 680px;
 }
 
 .nav {
     width: 200px;
     height: 51.85px;
-    margin: 20px auto;
+    margin: 0px;
+}
+
+.nav__logo {
+    width: 200px;
+    height: 51.85px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .header{
     width: 220px;
     height: 88px;
-    margin: 51px auto;
+    margin:0px;
 }
 
 .header__title {
     width: 288px;
     height: 88px;
+    margin-top: 50.15px;
+    margin-left: 16px;
+    margin-right: 16px;
     font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-weight: 900;
@@ -46,7 +54,9 @@ body{
 .header__subtitle {
     width: 288px;
     height: 40px;
-    margin: 60px auto;
+    margin-top: 60px;
+    margin-left: 16px;
+    margin-right: 16px;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -55,6 +65,37 @@ body{
 }
 
 .header__image {
-    width: 285px;
+    width: 320px;
     height: 200px;
+    margin-top: 40px;
+}
+.intro {
+    width: 288px;
+    height: 958px;
+}
+
+.intro-title {
+    width: 288px;
+    height: 175px;
+    margin-top: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    text-align: left;
+}
+
+.intro__quote {
+    width: 288px;
+    height: 180px;
+    margin-top: 74px;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
 }
