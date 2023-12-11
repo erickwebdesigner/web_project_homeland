@@ -41,9 +41,13 @@
 }
 
 .header__photos {
-    max-width: 1184px;
     list-style-type: none;
     margin-bottom: 92px;
+    
+}
+
+.header__photos-grid {
+    max-width: 1184px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -53,6 +57,7 @@
     ' header__photos-5 header__photos-6 header__photos-7 header__photos-8 '
     ;
 }
+
 
 
 
