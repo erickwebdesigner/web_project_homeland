@@ -1,0 +1,144 @@
+.intro {
+display: flex;
+flex-direction: column;
+max-width: 828px;
+margin: 0px 304px 92px 148px;
+}
+
+.intro__title {
+max-width: 828px;
+margin-bottom: 40px;
+font-size: 54px;
+font-weight: 900;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.intro__subtitle {
+max-width: 736px;
+margin-bottom: 8px;
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.intro__subtitle-author {
+max-width: 736px;
+margin-right: 16px ;
+margin-bottom: 32px;
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: right;
+}
+
+.intro__text {
+max-width: 720px;
+margin-bottom: 92px;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+.intro {
+    display: flex;
+    flex-direction: column;
+    max-width: 720px;
+    margin: 0px 24px 64px 24px;
+    }
+
+.intro__title {
+    max-width: 707px;
+    margin: 0px 24px 58px 0px;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+
+.intro__subtitle {
+    max-width: 707px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+
+.intro__subtitle-author {
+    max-width: 720px;
+    margin-bottom: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: right;
+    }
+.intro__text {
+    max-width: 720px;
+    margin-top: 0px;
+    margin-bottom: 64px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+}
+
+@media screen and (max-width: 320px) {
+.intro {
+    display: flex;
+    flex-direction: column;
+    max-width: 288px;
+    margin: 0px 16px 38px 16px;
+    }
+    
+    .intro__title {
+        max-width: 288px;
+        margin: 0px 0px 54px 0px;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+        }
+    
+    .intro__subtitle {
+        max-width: 288px;
+        margin-bottom: 55px;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+        }
+    
+    .intro__subtitle-author {
+        max-width: 288px;
+        margin-bottom: 32px;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: right;
+        }
+    .intro__text {
+        max-width: 288px;
+        margin-top: 0px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        }
+}
