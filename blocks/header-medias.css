@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1111px) {
     .header__intro {
         max-width: 720px;
         margin: 90px auto 0px;
@@ -19,7 +19,7 @@
         }
     }
     
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 360px) {
     .header__logo {
         max-width: 200px;
         margin: 34px auto 0px auto;
