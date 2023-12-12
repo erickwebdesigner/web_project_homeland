@@ -1,3 +1,7 @@
+.intro:hover {
+border: 3px solid #0063D2;
+}
+
 .intro {
 display: flex;
 flex-direction: column;
