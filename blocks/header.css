@@ -52,7 +52,7 @@
     margin: 64px auto 92px;
 }
 
-.header__photos{
+.header__photos:hover{
     border: 3px solid #0063D2;
 }
 
