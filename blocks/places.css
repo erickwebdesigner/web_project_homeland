@@ -1,18 +1,73 @@
 
+
 .places {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 0px 145px 92px 145px;
+    margin: 0px 145px 92px 148px;
 }
 
-.place {
+.place__kiev:hover {
+    border: 3px solid #0063D2;
+}
+
+.place__kiev{
     max-width: 984px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 40px;
-    row-gap: 80px;
-   
+    margin-bottom: 80px;
+}
+
+.place__Criccieth:hover {
+    border: 3px solid #0063D2;
+}
+
+.place__Criccieth{
+    max-width: 984px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    ' place__title place__website '
+    ;
+    column-gap: 40px;
+    margin-bottom: 80px;
+}
+
+.place__berea:hover {
+    border: 3px solid #0063D2;
+}
+
+.place__berea{
+    max-width: 984px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+    margin-bottom: 80px;
+}
+
+.place__muramvya:hover{
+    border: 3px solid #0063D2;
+}
+
+.place__muramvya{
+    max-width: 984px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+    margin-bottom: 80px;
+}
+
+.place__volta:hover {
+    border: 3px solid #0063D2;
+}
+
+.place__volta {
+    max-width: 984px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+    margin-bottom: 80px;
 }
 
 .place__title {
@@ -49,9 +104,15 @@
     color: white;
 }
 
+
+
 .place__website {
     max-width: 456px;
     margin-top: 107px;
+}
+
+.place__website-url:hover, .place__website-artist:hover{
+    border: 2px solid #0063D2;
 }
 
 .place__website-url {

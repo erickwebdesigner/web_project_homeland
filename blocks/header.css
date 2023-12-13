@@ -59,6 +59,9 @@
     margin-bottom: 92px; 
 }
 
+.header__photos-grid:hover{
+    border: 3px solid #0063D2;
+}
 
 .header__photos-grid {
     max-width: 1184px;
