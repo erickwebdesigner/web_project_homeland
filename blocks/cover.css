@@ -55,7 +55,7 @@
     margin: 32px auto;
 }
 
-.button__buy {
+.cover__button {
     background-color: #0278fe;
     width: 191px;
     height: 48px;
@@ -68,7 +68,7 @@
     margin: 32px 232px 0px;
 }
 
-.button__buy:hover {
+.cover__button:hover {
     color: #ffffff;
     background-color: #0063D2;
     transition: 0.5s;
@@ -94,7 +94,7 @@
         line-height: 1rem;
     }
 
-    .button__buy {
+    .cover__button {
         font-size: 1.12rem;
         line-height: 1.37rem;
         margin: 0 49px;
