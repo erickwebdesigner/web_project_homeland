@@ -6,5 +6,5 @@
 #### O site é totalmente responsivo podendo ser acessado através de vários dispositivos fácil manipulação.
 
 ## Tecnologias Utilizadas
-### HTML
+## HTML
 ### CSS
