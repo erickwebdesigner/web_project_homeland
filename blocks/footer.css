@@ -1,0 +1,10 @@
+.footer {
+    border: #0063D2 solid 3px;
+}
+
+.footer {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin: 92px auto 24px;
+}
