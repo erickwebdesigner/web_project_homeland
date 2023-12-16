@@ -1,3 +1,8 @@
+
+@font-face {
+    font-family: "Inter";
+    src: url(../static);
+}
 .page {
     background: #2a2c2f;
     color: #fff;
