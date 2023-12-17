@@ -241,11 +241,11 @@
 
 .photos {
     max-width: 1184px;
-    list-style-type: none;
     margin: auto;
     
 }
 .photos__grid {
+    list-style-type: none;
     width: 100%;
     display: grid;
     grid-gap: 16px 16px;
