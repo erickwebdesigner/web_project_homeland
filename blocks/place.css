@@ -1,7 +1,3 @@
-.place:hover {
-    border: #0063D2 solid 3px;
-}
-
 .place {
     max-width: 984px;
     display: grid;

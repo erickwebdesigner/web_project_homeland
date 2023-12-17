@@ -14,7 +14,6 @@
     background-blend-mode: overlay;
 }
 .cover:hover {
-    border: #0063D2 solid 3px;
     background: rgba(42, 44, 47, 1) url(../images/__background.png) no-repeat;
   transition: 0.5s;
 }
@@ -27,9 +26,6 @@
     background-color: #2A2C2F;
   }
 
-.cover__visitus:hover {
-    border: #0063D2 solid 3px;
-}
 
 .cover__visitus {
     max-width: 656px;

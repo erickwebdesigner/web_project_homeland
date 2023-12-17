@@ -1,7 +1,3 @@
-.footer:hover {
-    border: #0063D2 solid 3px;
-}
-
 .footer {
     width: 250px;
     display: flex;

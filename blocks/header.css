@@ -4,9 +4,6 @@
     align-items: center;
     }
 
-.header__logo:hover {
-    border: 3px solid #0063D2;
-}
 
 .header__logo {
     margin: 34px auto 90px auto;
@@ -15,10 +12,6 @@
 .header__logo-image{
     width: 100%;
     }
-
-.header__title:hover {
-    border: #0063D2 solid 3px;
-}
 
 .header__title {
     max-width: 793px;
@@ -30,10 +23,6 @@
     text-align: center;
     }
 
-.header__subtitle:hover {
-    border: #0063D2 solid 3px;
-}
-
 .header__subtitle {
     max-width: 720px;
     margin: 0 auto 64px auto;
@@ -44,18 +33,10 @@
     text-align: center;
     }
 
-.header__image:hover {
-    border: #0063D2 solid 3px;
-}
-
 .header__image {
     max-width: 984px;
     width: 100vw;
     }
-
-.intro:hover {
-    border: #0063D2 solid 3px;
-}
 
 .intro {
     max-width: 828px;
@@ -264,11 +245,6 @@
     margin: auto;
     
 }
-
-.photos__grid:hover {
-    border: #0063D2 solid 3px;
-}
-
 .photos__grid {
     width: 100%;
     display: grid;
